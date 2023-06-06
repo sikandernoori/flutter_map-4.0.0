@@ -7,6 +7,7 @@ import 'package:latlong2/latlong.dart';
 
 class Polyline {
   final List<LatLng> points;
+  final List<Offset> offsets = [];
   final double strokeWidth;
   final Color color;
   final double borderStrokeWidth;
